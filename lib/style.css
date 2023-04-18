@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#general{
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    background-color: rgba(8, 92, 92, 0.4);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+#logo-tatu{
+    display: flex;
+    place-items: center;
+}
+
+#logo-tatu img{
+    width: 70px;
+    height: 70px;
+    padding: 0;
+}
+
+#logo-tatu p{
+    padding-left: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav-right{
+    display: flex;
+    place-items: center;
+}
+
+#main{
+    border-left: solid 2px white;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-right: solid 2px white;
+}
+
+#con-sign img{
+    place-items: center;
+    width: 55px;
+    padding-left: 15px;
+}
+
+#g-body{
+    display: block;
+    text-align: center;
+    place-items: center;
+    margin-top: 200px;
+}
+
+#e-lib{
+    font-size: 80px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#e-com{
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#se-sub{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    place-items: center;
+}
+
+#search{
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    width: 500px;
+    height: 50px;
+    border-radius: 36px;
+    font-size: 18px;
+    place-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#submit{
+    padding: 8px;
+    border-radius: 50px;
+    place-items: center;
+    text-align: center;
+}
+
+#submit img{
+    width: 30px;
+}
